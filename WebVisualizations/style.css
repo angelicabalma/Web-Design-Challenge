@@ -1,0 +1,31 @@
+body{
+    background: grey;
+}
+.navbar-brand {
+    color: white !important;
+    background-color: teal;
+}
+
+#images a img{
+    width: 140px;
+
+   
+}
+#description-image{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+
+    
+}
+.description-content{
+    margin: 10px;
+    background-color: white;
+
+}
+#image-nav-area{
+    background-color: white;
+    
+}

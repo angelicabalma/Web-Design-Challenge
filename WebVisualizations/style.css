@@ -1,15 +1,44 @@
+/* Body */
 body{
-    background: grey;
+    background: lightgray;
 }
+/* Navbar*/
 .navbar-brand {
     color: white !important;
-    background-color: teal;
+    background-color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-block: 30px !important;
+    border-block-color: lightseagreen;
 }
-
+img.description-content-temp{
+    width: auto;
+}
 #images a img{
     width: 140px;
 
    
+}
+#images-temp a img{
+    width: 120px;
+}
+.description-content{
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.description-content h1{
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.imagenav-content h2{
+    color: lightseagreen;
+    
+
 }
 #description-image{
     width: 200px;
@@ -21,11 +50,138 @@ body{
     
 }
 .description-content{
-    margin: 10px;
+    margin: 40px;
     background-color: white;
+    
+}
+.imagenav-content-temp{
+    margin: 40px;
+    padding: 5px;
+    
+    
 
+}
+.imagenav-content-temp h2{
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#description-image-temp{
+    width: 400px;
+    height: 300px;
+}
+.imagenav-content{
+    margin: 30px;
+    
+
+    
+}
+.imagenav-content h2{
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #image-nav-area{
     background-color: white;
     
+}
+/*Footer*/
+.footer-copyright{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color:darkgrey;
+}
+
+/*all imgs*/
+img:hover { 
+    outline: 2px solid black; 
+  }
+
+#images-comparison a img{
+    width: 500px;
+    height: 400px;
+}
+
+.description-content-2{
+    margin: 40px;
+    background-color: white;
+    padding-bottom: 30px;
+    
+    
+}
+.description-content-2 h1{
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.description-content-2 h6{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*Data page*/
+.description-data{
+    margin: 40px;
+    background-color: white;
+    padding-bottom: 30px;
+
+}
+.description-data h1{
+    margin-left: 20px;
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description-data h6{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+@media (max-width: 992px){
+    .navbar-expand-lg{
+
+        background-color: lightseagreen !important;
+        
+        }
+        
+        .navbar{
+        
+            max-height: none;
+        
+            padding: inherit;
+        
+        }
+        
+        .navbar div{
+        
+            margin: inherit;
+        
+            background-color: grey; 
+        
+        }
+        
+        .navbar-brand{
+        
+            padding: 10px !important;
+        
+        }
+        
+         
+        
+        button{
+        
+            margin-right: 30px;
+        
+        }
+        
+        button:focus {
+        
+         
+        
+            outline: 1px dotted;
+        
+            outline: 5px auto -webkit-focusring-color;
+        
+           
+        
+        }
 }
